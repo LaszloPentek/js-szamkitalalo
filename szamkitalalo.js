@@ -19,3 +19,11 @@ található a legutolsó tipped, alul pedig az első tipped.
 
 
 */
+
+let szam = document.getElementById("js-number")
+
+console.log(szam)
+
+let history = document.getElementById("js-container")
+
+history.innerHTML += `<li>szia</li>`
